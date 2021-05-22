@@ -1,0 +1,27 @@
+.Header {
+    position: relative;
+    width: 100%;
+    margin: 4px 12px;
+}
+
+.Header-TextInput {
+    position: relative;
+    z-index: 1;
+    font-size: 24px;
+    width: 90%;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid rgba(131,58,180,1);
+    outline: none;
+    background-color: transparent;
+}
+
+.Header-background {
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 6px;
+    color: rgba(0,0,0,.5);
+}
+
